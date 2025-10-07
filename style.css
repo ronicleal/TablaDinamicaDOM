@@ -1,0 +1,73 @@
+/* ====== Estilo general del body ====== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+}
+h1{
+    color: #0D3B66;
+}
+/* ====== Tabla ====== */
+table {
+  border-collapse: collapse;
+  width: 60%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Encabezados */
+th {
+  background-color: #0D3B66;
+  color: white;
+  padding: 15px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+/* Filas */
+td {
+  padding: 12px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Efecto al pasar el mouse por las filas */
+tr:hover td {
+  background-color: #f2f7fb;
+}
+
+/* Última fila sin borde inferior */
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* ====== Botón ====== */
+button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: #f95738;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #d0452c;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(1);
+}
